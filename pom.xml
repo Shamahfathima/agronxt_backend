@@ -12,7 +12,7 @@
 	<artifactId>productapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>productapi</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Product API for AgroNxt</description>
 	<url/>
 	<licenses>
 		<license/>
