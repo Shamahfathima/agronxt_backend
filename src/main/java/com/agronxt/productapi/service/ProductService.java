@@ -33,7 +33,15 @@ public class ProductService {
         product.setName(productDetails.getName());
         product.setDescription(productDetails.getDescription());
         product.setPrice(productDetails.getPrice());
-        product.setQuantity(productDetails.getQuantity());
+        // product.setQuantity(productDetails.getQuantity());
+        product.setBrand(productDetails.getBrand());
+        product.setSlug(productDetails.getSlug());
+        product.setImage(productDetails.getImage());
+        product.setFeatured(productDetails.isFeatured());
+        product.setRating(productDetails.getRating());
+        product.setNotes(productDetails.getNotes());
+        product.setTags(productDetails.getTags());
+        product.setMood(productDetails.getMood());
 
         return productRepository.save(product);
     }
